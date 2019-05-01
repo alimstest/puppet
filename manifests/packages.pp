@@ -6,13 +6,13 @@ file { '/tmp/AAAAA.txt':
   mode   => '0777',
 }
 
-$needs = [ 'tmux', 'sysdig', 'atop', 'htop', 'dstat', 'vlan', ]
+$needs = [ 'tmux', 'sysdig', 'atop', 'htop', 'dstat', 'vlan', 'puppet-lint' , ]
 
 package { $needs:
   ensure => 'installed',
 }
 
-package { 'puppet-lint':
-  ensure   => '1.1.0',
-  provider => 'gem',
-} 
+#package { 'puppet-lint':
+#  ensure   => '1.1.0',
+#  provider => 'gem',
+#} 
