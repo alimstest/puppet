@@ -3,7 +3,7 @@ file { '/tmp/AAAAA.txt':
   ensure => present,
   content => 'AAAAAAAAAAAAAAAAAAAAAA',
   owner  => 'ubuntu',
-  mode   => '0600',
+  mode   => '0777',
 }
 
 package { 'atop':
