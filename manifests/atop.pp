@@ -11,5 +11,5 @@ package { 'atop':
 }
  
 package { 'htop':
-  ensure => 'absent',
+  ensure => 'installed',
 }
