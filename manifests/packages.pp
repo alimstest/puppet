@@ -8,7 +8,7 @@ file { '/tmp/AAAAA.txt':
 
 $needs = [ 'tmux', 'sysdig', 'atop', 'htop', 'dstat', 'vlan', ]
 
-package { '$needs':
+package { $needs:
   ensure => 'installed',
 }
 
