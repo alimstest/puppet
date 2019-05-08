@@ -1,1 +1,1 @@
-Ali is comming... soon
+BUNU KULLANMIYORUMMMMMMMMMM
